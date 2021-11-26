@@ -74,7 +74,7 @@ input:focus{
     border: none;
 }
 .container{
-    margin-top: 10rem;
+    margin-top: 3rem;
     color: white;
 }
   @media only screen and (max-width:1024px) and (min-width:280px) {

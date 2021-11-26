@@ -1,4 +1,5 @@
 
+// ----------------- method 1 --------------------
 // const myForm = document.getElementById('mForm')
 
 // myForm.addEventListener('submit',(e)=>{
@@ -22,6 +23,8 @@
 //     })
 // })
 
+//--------------- method 2 ------------------
+
 // formElem.onsubmit = async (e) => {
 //     e.preventDefault();
 
@@ -38,9 +41,9 @@
 var hour = new Date().getHours()
 let out;
 function greet() {
-    if (hour = 0 && hour < 12) {
+    if (hour === 0 && hour < 12) {
         out = 'GOOD MORNING USER'
-    } else if (hour = 12 && hour === 16) {
+    } else if (hour > 12 && hour < 16) {
         out = 'GOOD AFTERNOON USER'
     } else {
         out = "GOOD EVENING USER"

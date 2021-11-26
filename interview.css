@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+label{
+    color: white;
+}
+
+.frm{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin: 2rem;
+ 
+}
+.Form{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    flex-direction: column;
+}
+label{
+    text-align: left;
+}
+input{
+    background-color: transparent;
+    padding: 1.5rem;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 1rem;
+    margin-left: 0;
+    caret-color: white;
+    color: white;
+}
+input:focus{
+    outline: none;
+    color: rgb(253, 229, 229);
+}
+::-webkit-input-placeholder{
+    color: rgb(253, 229, 229);
+    padding: .5rem;
+}
+
+.h-k{
+    position: absolute;
+    width: 25%;
+  }
+  .s-k{
+      position: absolute;
+      left: 80%;
+      top: 70%;
+  }
+  button{
+    padding:.8rem;
+    margin: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+}
+.container{
+    margin-top: 10rem;
+    color: white;
+}
+  @media only screen and (max-width:1024px) and (min-width:280px) {
+    .s-k{
+        top: 80%;
+        width: 25%;
+        left: 73%;
+    }
+    .h-k{
+        top: 5%;
+    }
+    .s input{
+        padding: 1.5rem 3rem;
+        padding-left: 0;
+    }
+    h1{
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+    
+  }
+
